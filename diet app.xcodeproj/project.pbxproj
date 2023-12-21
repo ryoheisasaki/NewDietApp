@@ -16,6 +16,9 @@
 		F9153E012B3325B000817E3A /* diet_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9153E002B3325B000817E3A /* diet_appTests.swift */; };
 		F9153E0B2B3325B000817E3A /* diet_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9153E0A2B3325B000817E3A /* diet_appUITests.swift */; };
 		F9153E0D2B3325B000817E3A /* diet_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9153E0C2B3325B000817E3A /* diet_appUITestsLaunchTests.swift */; };
+		F9153E1A2B3327B200817E3A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9153E192B3327B200817E3A /* MainTabBarController.swift */; };
+		F9153E1C2B33BC1300817E3A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9153E1B2B33BC1300817E3A /* CalendarViewController.swift */; };
+		F9153E1F2B33BC4200817E3A /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9153E1E2B33BC4200817E3A /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F9153E062B3325B000817E3A /* diet appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diet appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9153E0A2B3325B000817E3A /* diet_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diet_appUITests.swift; sourceTree = "<group>"; };
 		F9153E0C2B3325B000817E3A /* diet_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diet_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9153E192B3327B200817E3A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F9153E1B2B33BC1300817E3A /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F9153E1E2B33BC4200817E3A /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				F9153DE92B3325AE00817E3A /* AppDelegate.swift */,
 				F9153DEB2B3325AE00817E3A /* SceneDelegate.swift */,
 				F9153DED2B3325AE00817E3A /* ViewController.swift */,
+				F9153E192B3327B200817E3A /* MainTabBarController.swift */,
 				F9153DEF2B3325AE00817E3A /* Main.storyboard */,
 				F9153DF22B3325AF00817E3A /* Assets.xcassets */,
 				F9153DF42B3325AF00817E3A /* LaunchScreen.storyboard */,
 				F9153DF72B3325AF00817E3A /* Info.plist */,
+				F9153E1B2B33BC1300817E3A /* CalendarViewController.swift */,
+				F9153E1E2B33BC4200817E3A /* GraphViewController.swift */,
 			);
 			path = "diet app";
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9153E1C2B33BC1300817E3A /* CalendarViewController.swift in Sources */,
 				F9153DEE2B3325AE00817E3A /* ViewController.swift in Sources */,
 				F9153DEA2B3325AE00817E3A /* AppDelegate.swift in Sources */,
+				F9153E1F2B33BC4200817E3A /* GraphViewController.swift in Sources */,
+				F9153E1A2B3327B200817E3A /* MainTabBarController.swift in Sources */,
 				F9153DEC2B3325AE00817E3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
